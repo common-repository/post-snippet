@@ -1,0 +1,117 @@
+.post_snippet_select {
+max-width: 100%;
+}
+input.widget_words, input.widget_height {
+    width: 64px;
+}
+label.widget_height span {
+    font-size: .9em;
+    font-weight: normal;
+}
+.alt_title, .alt_excerpt, .only_on_categories, .exclude_post_types {
+width: 100%;
+}
+.alt_excerpt {
+height:100px;
+}
+.where_to_display, .title_color_container {
+margin-top: 0;
+}
+.where_to_display .post_snippet_select{
+    height: 180px!important;
+}
+.display_section_title, .style_section_title, .content_section_title {
+cursor:pointer;
+text-align: center;
+    border: 1px solid #e5e5e5;
+    margin: 0;
+    padding: 7px;
+	background: #C1BFBF;
+	    margin-top: 8px;
+}
+.ps_elements{
+display:none;
+border: 1px solid #e5e5e5;
+    padding: 12px 10px 0;
+	border-top:0;
+}
+.section_container:first-of-type .ps_elements{
+display:block;
+}
+.section_container{
+	margin-bottom: 12px;
+}
+.section_container:last-of-type {
+	margin-bottom: 24px;
+}
+.section_container  select[multiple] {
+min-height: 86px;
+}
+.display_section_title:after, .style_section_title:after , .content_section_title:after {
+    content: '\f140';
+    font: 400 20px/1 dashicons;
+	-webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+    padding-left: 4px;
+}
+.content_section_title:after {
+    content: '\f142';
+}
+.section_open:after {
+content: '\f142';
+}
+.section_open_content:after {
+content: '\f140';
+}
+.display_section_title:hover, .style_section_title:hover, .content_section_title:hover {
+    border: 1px solid #7B7B7B;
+}
+.widget-content label {
+    margin: 6px 0;
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.widget-content label.is_accordion, .widget-content label.accordion, .widget-content label.dont_display_title, .widget-content label.dont_display_image, .widget-content label.dont_display_excerpt, label.dont_display_on_self{
+display:inline-block !important;
+}
+
+.widget_words_container {
+    margin-top: -10px;
+    margin-bottom: 22px;
+}
+
+.option_or {
+    margin: 7px 0 0 2px;
+    display: block;
+    font-style: italic;
+}
+.option_or.template {
+margin:0;
+}
+.option_or_container {
+border: 1px solid #e5e5e5;
+    padding: 0 5px;
+}
+.dont_display_excerpt {
+margin-top: 9px !important;
+}
+
+.responsive_title {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+    display: inline;
+    padding: 0 10px;
+    background: rgb(225, 225, 230);
+}
+.responsive_remark {
+    background: rgb(225, 225, 230);
+    padding-left: 10px;
+}
+.ps_remark {
+    color: #777;
+    font-size: 11px;
+    margin-top: 1px;
+	    display: block;
+}
